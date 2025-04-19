@@ -75,14 +75,14 @@ export default function Features() {
             icon="📸"
             title="Instant Receipt Scanning"
             description="Advanced OCR technology automatically detects and extracts receipt details in seconds."
-            color="#0071E3"
+            color="#34C759"
           />
           
           <Feature
             icon="🧮"
             title="Smart Calculations"
             description="Automatically calculates each person's share, including tax and tip adjustments."
-            color="#5E5CE6"
+            color="#34C759"
           />
           
           <Feature

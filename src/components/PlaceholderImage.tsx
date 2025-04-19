@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface PlaceholderImageProps {
   width: number;
@@ -8,17 +9,35 @@ interface PlaceholderImageProps {
   textColor?: string;
   className?: string;
   rounded?: boolean;
+  isAppIcon?: boolean;
 }
 
 export default function PlaceholderImage({
   width,
   height,
   text = 'Image',
-  bgColor = '#0071E3',
+  bgColor = '#34C759',
   textColor = 'white',
   className = '',
-  rounded = false
+  rounded = false,
+  isAppIcon = false
 }: PlaceholderImageProps) {
+  // Use app icon image if this is marked as an app icon
+  if (isAppIcon) {
+    // return app icon image
+    return (
+      <Image
+        priority
+        src="/images/app-icon-light.svg"
+        height={height}
+        width={width}
+        alt="App Icon"
+        className={`rounded-lg ${className}`}
+      />
+    );
+  }
+
+  // Regular placeholder
   return (
     <div
       className={`flex items-center justify-center ${rounded ? 'rounded-xl' : ''} ${className}`}
