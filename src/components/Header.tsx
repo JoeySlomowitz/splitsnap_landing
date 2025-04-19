@@ -35,11 +35,13 @@ export default function Header() {
         <div className="flex justify-between items-center py-4 md:py-6">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <PlaceholderImage 
-                width={36} 
-                height={36} 
-                text="SS"
-                className="mr-2 rounded-lg"
+              <PlaceholderImage
+                width={36}
+                height={36}
+                text=""
+                isAppIcon={true}
+                bgColor="#34C759"
+                className="mr-2 rounded-lg dark:bg-[#58D158]"
               />
               <span className="text-xl font-bold text-gray-900 dark:text-white">SplitSnap</span>
             </Link>
@@ -60,7 +62,7 @@ export default function Header() {
             </Link>
             <Link 
               href="#download" 
-              className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-black hover:bg-gray-800 dark:bg-blue-600 dark:hover:bg-blue-700 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-[#34C759] hover:bg-[#2db14e] dark:bg-[#58D158] dark:hover:bg-[#4abb4a] transition duration-150 ease-in-out"
             >
               Download
             </Link>

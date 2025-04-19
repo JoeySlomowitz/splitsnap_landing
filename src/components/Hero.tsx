@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Split Receipts <span className="text-blue-600 dark:text-blue-400">in Seconds</span>
+            Split Receipts <span className="text-[#34C759] dark:text-[#58D158]">in Seconds</span>
           </h1>
           <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-medium text-gray-600 dark:text-gray-300">
             Snap. Split. Share.
@@ -19,12 +19,13 @@ export default function Hero() {
           <div className="mt-8">
             <a
               href="#download"
-              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black hover:bg-gray-800 dark:bg-blue-600 dark:hover:bg-blue-700 transition duration-150 ease-in-out shadow-sm"
+              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-[#34C759] hover:bg-[#2db14e] dark:bg-[#58D158] dark:hover:bg-[#4abb4a] transition duration-150 ease-in-out shadow-sm"
             >
               <PlaceholderImage
                 width={24}
                 height={24}
-                text="App"
+                text=""
+                isAppIcon={true}
                 className="mr-2 rounded-full"
               />
               Download on App Store
@@ -33,7 +34,7 @@ export default function Hero() {
         </div>
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative w-64 sm:w-72 md:w-80 h-auto">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-[60px] blur-xl opacity-20 animate-pulse"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#34C759] to-[#2db14e] rounded-[60px] blur-xl opacity-20 animate-pulse dark:from-[#58D158] dark:to-[#4abb4a]"></div>
             <div className="relative">
               <PlaceholderImage
                 width={320}
@@ -47,10 +48,11 @@ export default function Hero() {
                 <PlaceholderImage
                   width={280}
                   height={600}
-                  text="SplitSnap App"
-                  bgColor="#0071E3"
+                  text=""
+                  isAppIcon={true}
+                  bgColor="#34C759"
                   textColor="white"
-                  className="rounded-[36px] object-cover"
+                  className="rounded-[36px] object-cover dark:bg-[#58D158]"
                 />
               </div>
             </div>

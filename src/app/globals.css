@@ -6,7 +6,7 @@
   --primary: #0071e3;
   --primary-dark: #0058b9;
   --secondary: #86868b;
-  --accent: #5e5ce6;
+  --accent: #34c759; /* Updated accent color - RGB(52, 199, 89) */
   --success: #34c759;
   --warning: #ff9500;
   --danger: #ff3b30;
@@ -36,6 +36,7 @@
     --primary: #0a84ff;
     --primary-dark: #409cff;
     --secondary: #98989d;
+    --accent: #58d158; /* Updated accent color for dark mode - RGB(88, 209, 88) */
   }
 }
 
@@ -97,18 +98,19 @@ body {
 
 /* iOS-style button */
 .ios-button {
-  background: var(--primary);
+  background: var(--accent);
   color: white;
   border-radius: 9999px;
   font-weight: 600;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 8px rgba(0, 113, 227, 0.2);
+  box-shadow: 0 2px 8px rgba(52, 199, 89, 0.2);
 }
 
 .ios-button:hover {
-  background: var(--primary-dark);
+  background: var(--accent);
+  filter: brightness(0.9);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 113, 227, 0.3);
+  box-shadow: 0 4px 12px rgba(52, 199, 89, 0.3);
 }
 
 .ios-button:active {

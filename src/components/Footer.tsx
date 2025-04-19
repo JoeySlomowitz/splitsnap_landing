@@ -10,11 +10,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <PlaceholderImage 
-                width={40} 
-                height={40} 
-                text="SS"
-                className="mr-2 rounded-lg"
+              <PlaceholderImage
+                width={40}
+                height={40}
+                text=""
+                isAppIcon={true}
+                bgColor="#34C759"
+                className="mr-2 rounded-lg dark:bg-[#58D158]"
               />
               <span className="text-xl font-bold text-gray-900 dark:text-white">SplitSnap</span>
             </div>
