@@ -1,16 +1,16 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import PlaceholderImage from './PlaceholderImage';
+import Image from 'next/image';
 
 interface FeatureProps {
-  icon: string;
+  iconSrc: string;
   title: string;
   description: string;
   color: string;
 }
 
-function Feature({ icon, title, description, color }: FeatureProps) {
+function Feature({ iconSrc, title, description, color }: FeatureProps) {
   const featureRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,14 +42,19 @@ function Feature({ icon, title, description, color }: FeatureProps) {
       className="flex flex-col items-center text-center opacity-0 transition-opacity duration-1000 ease-in-out"
     >
       <div className="mb-4">
-        <PlaceholderImage
-          width={60}
-          height={60}
-          text={icon}
-          bgColor={color}
-          textColor="white"
-          className="rounded-2xl"
-        />
+        <div
+          className="rounded-2xl flex items-center justify-center"
+          style={{ backgroundColor: color, width: '60px', height: '60px' }}
+        >
+          <Image
+            src={iconSrc}
+            alt={title}
+            width={40}
+            height={40}
+            className="invert brightness-0 filter"
+            style={{ filter: 'brightness(0) invert(1)' }}
+          />
+        </div>
       </div>
       <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{title}</h3>
       <p className="text-gray-600 dark:text-gray-400">{description}</p>
@@ -72,42 +77,21 @@ export default function Features() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <Feature
-            icon="📸"
+            iconSrc="/images/scan-receipt.svg"
             title="Instant Receipt Scanning"
             description="Advanced OCR technology automatically detects and extracts receipt details in seconds."
             color="#34C759"
           />
           
           <Feature
-            icon="🧮"
+            iconSrc="/images/math.svg"
             title="Smart Calculations"
             description="Automatically calculates each person's share, including tax and tip adjustments."
             color="#34C759"
           />
           
           <Feature
-            icon="👥"
-            title="Custom Splitting"
-            description="Split bills evenly or assign specific items to different people with ease."
-            color="#34C759"
-          />
-          
-          <Feature
-            icon="💰"
-            title="Multiple Payment Options"
-            description="Connect with popular payment apps to send and receive money instantly."
-            color="#FF9500"
-          />
-          
-          <Feature
-            icon="🔄"
-            title="Expense History"
-            description="Keep track of all your shared expenses in one convenient place."
-            color="#FF3B30"
-          />
-          
-          <Feature
-            icon="🔒"
+            iconSrc="/images/lock.svg"
             title="Secure & Private"
             description="Your financial data is encrypted and never shared with third parties."
             color="#AF52DE"

@@ -9,7 +9,7 @@ interface PlaceholderImageProps {
   textColor?: string;
   className?: string;
   rounded?: boolean;
-  isAppIcon?: boolean;
+  isIcon?: boolean;
 }
 
 export default function PlaceholderImage({
@@ -20,10 +20,10 @@ export default function PlaceholderImage({
   textColor = 'white',
   className = '',
   rounded = false,
-  isAppIcon = false
+  isIcon = false
 }: PlaceholderImageProps) {
   // Use app icon image if this is marked as an app icon
-  if (isAppIcon) {
+  if (isIcon) {
     // return app icon image
     return (
       <Image

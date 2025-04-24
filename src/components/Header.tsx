@@ -39,7 +39,7 @@ export default function Header() {
                 width={36}
                 height={36}
                 text=""
-                isAppIcon={true}
+                isIcon={true}
                 bgColor="#34C759"
                 className="mr-2 rounded-lg dark:bg-[#58D158]"
               />
@@ -48,20 +48,20 @@ export default function Header() {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              href="#features" 
+            <Link
+              href="/#features"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium"
             >
               Features
             </Link>
-            <Link 
-              href="#how-it-works" 
+            <Link
+              href="/#how-it-works"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium"
             >
               How It Works
             </Link>
             <Link 
-              href="#download" 
+              href="https://testflight.apple.com/join/VfvszCHu" 
               className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-[#34C759] hover:bg-[#2db14e] dark:bg-[#58D158] dark:hover:bg-[#4abb4a] transition duration-150 ease-in-out"
             >
               Download
@@ -94,21 +94,21 @@ export default function Header() {
         <div className="md:hidden bg-white dark:bg-gray-900 shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
-              href="#features"
+              href="/#features"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Features
             </Link>
             <Link
-              href="#how-it-works"
+              href="/#how-it-works"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               How It Works
             </Link>
             <Link
-              href="#download"
+              href="/#download"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
               onClick={() => setIsMobileMenuOpen(false)}
             >

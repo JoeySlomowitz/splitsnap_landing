@@ -2,15 +2,18 @@
 
 import { useEffect, useRef } from 'react';
 import PlaceholderImage from './PlaceholderImage';
+import Image from 'next/image';
 
 interface StepProps {
   number: number;
   title: string;
   description: string;
   imageBgColor: string;
+  lightModeImage?: string;
+  darkModeImage?: string;
 }
 
-function Step({ number, title, description, imageBgColor }: StepProps) {
+function Step({ number, title, description, imageBgColor, lightModeImage, darkModeImage }: StepProps) {
   const stepRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -37,9 +40,9 @@ function Step({ number, title, description, imageBgColor }: StepProps) {
   }, []);
 
   return (
-    <div 
+    <div
       ref={stepRef}
-      className="flex flex-col md:flex-row items-center gap-8 opacity-0 transition-opacity duration-1000 ease-in-out"
+      className="flex flex-col md:flex-row items-center gap-12 opacity-0 transition-opacity duration-1000 ease-in-out"
     >
       <div className="flex-1 order-2 md:order-1 text-center md:text-left">
         <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e6f7eb] dark:bg-[#1e3e28] text-[#34C759] dark:text-[#58D158] font-bold text-xl mb-4">
@@ -49,17 +52,38 @@ function Step({ number, title, description, imageBgColor }: StepProps) {
         <p className="text-gray-600 dark:text-gray-400">{description}</p>
       </div>
       <div className="flex-1 order-1 md:order-2 flex justify-center">
-        <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#34C759] to-[#2db14e] rounded-2xl blur-md opacity-20 dark:from-[#58D158] dark:to-[#4abb4a]"></div>
-          <div className="relative bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-xl">
-            <PlaceholderImage
-              width={240}
-              height={240}
-              text={`Step ${number}`}
-              bgColor={imageBgColor}
-              textColor="white"
-              className="rounded-xl"
-            />
+        <div className="relative w-56 sm:w-64 md:w-72 lg:w-80 transition-all duration-300">
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-600 dark:from-green-400 dark:to-green-500
+                      rounded-2xl blur-md opacity-20 transition-colors duration-300"
+            aria-hidden="true"
+          ></div>
+          <div className="relative bg-white dark:bg-black rounded-2xl p-4 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            {lightModeImage && darkModeImage ? (
+              <>
+                <img
+                  src={lightModeImage}
+                  alt={`Step ${number}`}
+                  // height={380}
+                  className="w-full h-full object-contain rounded-xl dark:hidden"
+                />
+                <img
+                  src={darkModeImage}
+                  alt={`Step ${number}`}
+                  height={380}
+                  className="w-full h-full object-contain rounded-xl hidden dark:block"
+                />
+              </>
+            ) : (
+              <PlaceholderImage
+                width={240}
+                height={240}
+                text={`Step ${number}`}
+                bgColor={imageBgColor}
+                textColor="white"
+                className="rounded-xl"
+              />
+            )}
           </div>
         </div>
       </div>
@@ -76,31 +100,36 @@ export default function Steps() {
             How It Works
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Split any bill in three simple steps
+            Split any bill in two simple steps
           </p>
         </div>
-        
+
         <div className="space-y-20">
           <Step
             number={1}
             title="Snap a Photo"
             description="Take a quick photo of any receipt with your iPhone camera."
             imageBgColor="#34C759" // iOS green
+            lightModeImage="/images/scan-instruction.png"
+            darkModeImage="/images/scan-instruction_dark.png"
           />
-          
+
           <Step
             number={2}
             title="Split the Bill"
             description="Enter the number of people and let SplitSnap calculate each person's share."
             imageBgColor="#34C759" // Updated to accent green
+            lightModeImage="/images/split_instruction.png"
+            darkModeImage="/images/split_instruction_dark.png"
           />
-          
-          <Step
+
+          {/* TODO: Add this later when functionality available  */}
+          {/* <Step
             number={3}
             title="Share Instantly"
             description="Send payment details to friends via text, email, or your favorite messaging app."
             imageBgColor="#34C759" // Updated to accent green
-          />
+          /> */}
         </div>
       </div>
     </section>
