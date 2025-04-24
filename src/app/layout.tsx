@@ -36,12 +36,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  X: {
-    card: "summary_large_image",
-    title: "SplitSnap - Split Receipts in Seconds",
-    description: "Transform receipt splitting through three simple steps: Snap, Split, Share.",
-    images: ["/images/twitter-image.jpg"],
-  },
   appleWebApp: {
     capable: true,
     title: "SplitSnap",

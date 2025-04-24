@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
                             Welcome to SplitSnap. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains our approach to privacy and how your information is handled when you use our receipt scanning bill-splitting application.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is designed with privacy at its core. Our app processes all data directly on your device, with no information transmitted to external servers. This "zero-data-transmission" approach means your financial information never leaves your control.
+                            SplitSnap is designed with privacy at its core. Our app processes all data directly on your device, with no information transmitted to external servers. This \"zero-data-transmission\" approach means your financial information never leaves your control.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Our Zero-Data-Transmission Approach</h2>
