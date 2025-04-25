@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Company</h3>
             <ul className="mt-4 space-y-2">
               <li>
@@ -47,7 +47,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Legal</h3>
