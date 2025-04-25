@@ -25,13 +25,15 @@ function Feature({ iconSrc, title, description, color }: FeatureProps) {
       { threshold: 0.3 }
     );
 
-    if (featureRef.current) {
-      observer.observe(featureRef.current);
+    // Store the ref value in a variable to use in the cleanup function
+    const currentRef = featureRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (featureRef.current) {
-        observer.unobserve(featureRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

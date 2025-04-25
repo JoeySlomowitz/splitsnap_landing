@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import PlaceholderImage from './PlaceholderImage';
 
 interface StepProps {
@@ -27,13 +28,14 @@ function Step({ number, title, description, imageBgColor, lightModeImage, darkMo
       { threshold: 0.3 }
     );
 
-    if (stepRef.current) {
-      observer.observe(stepRef.current);
+    const currentRef = stepRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (stepRef.current) {
-        observer.unobserve(stepRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -60,15 +62,17 @@ function Step({ number, title, description, imageBgColor, lightModeImage, darkMo
           <div className="relative bg-white dark:bg-black rounded-2xl p-4 shadow-xl hover:shadow-2xl transition-shadow duration-300">
             {lightModeImage && darkModeImage ? (
               <>
-                <img
+                <Image
                   src={lightModeImage}
                   alt={`Step ${number}`}
-                  // height={380}
+                  width={380}
+                  height={380}
                   className="w-full h-full object-contain rounded-xl dark:hidden"
                 />
-                <img
+                <Image
                   src={darkModeImage}
                   alt={`Step ${number}`}
+                  width={380}
                   height={380}
                   className="w-full h-full object-contain rounded-xl hidden dark:block"
                 />
