@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import PlaceholderImage from './PlaceholderImage';
-import Image from 'next/image';
 
 interface StepProps {
   number: number;

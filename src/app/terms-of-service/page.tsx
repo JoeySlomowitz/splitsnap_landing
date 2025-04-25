@@ -15,7 +15,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">1. Introduction</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Welcome to SplitSnap. These Terms of Service ("Terms") govern your use of the SplitSnap mobile application ("App"), provided by SplitSnap ("we," "us," or "our"). By downloading, installing, or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
+                            Welcome to SplitSnap. These Terms of Service (&quot;Terms&quot;) govern your use of the SplitSnap mobile application (&quot;App&quot;), provided by SplitSnap (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             SplitSnap is a receipt scanning bill-splitting application that allows users to scan receipts, process the information, and split bills among multiple people. All processing occurs on your device, and no data is transmitted to external servers.
@@ -26,12 +26,12 @@ export default function TermsOfService() {
                             By using SplitSnap, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you are using the App on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            We reserve the right to modify these Terms at any time. We will provide notice of significant changes by updating the "Last Updated" date at the top of these Terms. Your continued use of the App after such changes constitutes your acceptance of the new Terms.
+                            We reserve the right to modify these Terms at any time. We will provide notice of significant changes by updating the &quot;Last Updated&quot; date at the top of these Terms. Your continued use of the App after such changes constitutes your acceptance of the new Terms.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">3. Eligibility</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            You must be at least 13 years old to use SplitSnap. By using the App, you represent and warrant that you meet this requirement. If you are under 18, you represent that you have your parent's or legal guardian's permission to use the App and that they have read and agree to these Terms on your behalf.
+                            You must be at least 13 years old to use SplitSnap. By using the App, you represent and warrant that you meet this requirement. If you are under 18, you represent that you have your parent&apos;s or legal guardian&apos;s permission to use the App and that they have read and agree to these Terms on your behalf.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">4. App License and Restrictions</h2>
@@ -95,10 +95,10 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">9. Disclaimer of Warranties</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+                            THE APP IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            We do not warrant that the App will function without interruption or errors, that defects will be corrected, or that the App is free of viruses or other harmful components. We make no warranties regarding the accuracy, reliability, completeness, or timeliness of the App's content, including the accuracy of receipt scanning or bill splitting calculations.
+                            We do not warrant that the App will function without interruption or errors, that defects will be corrected, or that the App is free of viruses or other harmful components. We make no warranties regarding the accuracy, reliability, completeness, or timeliness of the App&apos;s content, including the accuracy of receipt scanning or bill splitting calculations.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">10. Limitation of Liability</h2>
@@ -118,7 +118,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">11. Indemnification</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            You agree to defend, indemnify, and hold harmless SplitSnap, its affiliates, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the App.
+                            You agree to defend, indemnify, and hold harmless SplitSnap, its affiliates, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys&apos; fees) arising out of or relating to your violation of these Terms or your use of the App.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">12. Termination</h2>
