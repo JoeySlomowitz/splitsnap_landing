@@ -18,19 +18,19 @@ export default function PrivacyPolicy() {
                             Welcome to SplitSnap. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains our approach to privacy and how your information is handled when you use our receipt scanning bill-splitting application.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is designed with privacy at its core. Our app processes all data directly on your device, with no information transmitted to external servers. This \"zero-data-transmission\" approach means your financial information never leaves your control.
+                            SplitSnap is designed with privacy at its core. Our app processes all data directly on your device, with no information transmitted to external servers. This &quot;zero-data-transmission&quot; approach means your financial information never leaves your control.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Our Zero-Data-Transmission Approach</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap operates entirely on your device. When you scan a receipt, the image is processed locally using your device's computing power. The text recognition, calculations, and bill splitting all happen on your device. At no point is your receipt data, financial information, or any other personal data transmitted to our servers or any third-party servers.
+                            SplitSnap operates entirely on your device. When you scan a receipt, the image is processed locally using your device&apos;s computing power. The text recognition, calculations, and bill splitting all happen on your device. At no point is your receipt data, financial information, or any other personal data transmitted to our servers or any third-party servers.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             This approach provides several key privacy benefits:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">Your financial information remains completely private</li>
-                            <li className="mb-2">No risk of data breaches from our servers (because we don't store your data)</li>
+                            <li className="mb-2">No risk of data breaches from our servers (because we don&apos;t store your data)</li>
                             <li className="mb-2">No tracking or profiling of your spending habits</li>
                             <li className="mb-2">Full functionality even without an internet connection</li>
                         </ul>
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
                             <li className="mb-2">Your data remains under your control at all times</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            The only exceptions to this are standard app functionality services provided by Apple, such as App Store downloads, TestFlight distribution, and crash reporting, which are governed by Apple's privacy policy.
+                            The only exceptions to this are standard app functionality services provided by Apple, such as App Store downloads, TestFlight distribution, and crash reporting, which are governed by Apple&apos;s privacy policy.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Camera Permission</h2>
@@ -56,10 +56,10 @@ export default function PrivacyPolicy() {
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">The image is processed entirely on your device</li>
                             <li className="mb-2">The image is not transmitted to any external servers</li>
-                            <li className="mb-2">The image is only stored temporarily in your device's memory during processing</li>
+                            <li className="mb-2">The image is only stored temporarily in your device&apos;s memory during processing</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            You can revoke camera permission at any time through your device settings, though this will limit the app's functionality as receipt scanning is our core feature.
+                            You can revoke camera permission at any time through your device settings, though this will limit the app&apos;s functionality as receipt scanning is our core feature.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">On-Device Data Storage</h2>
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
                             <li className="mb-2">App preferences and settings</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            This data is stored only for the duration of your active session and is automatically cleared when you close the app or start a new receipt scanning session. We do not maintain a history of your receipts or transactions unless you explicitly save them using your device's native sharing or saving features.
+                            This data is stored only for the duration of your active session and is automatically cleared when you close the app or start a new receipt scanning session. We do not maintain a history of your receipts or transactions unless you explicitly save them using your device&apos;s native sharing or saving features.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Handling of Financial Information</h2>
@@ -103,12 +103,12 @@ export default function PrivacyPolicy() {
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">You control who receives the information</li>
-                            <li className="mb-2">Sharing happens through your device's native sharing features (Messages, Email, etc.)</li>
+                            <li className="mb-2">Sharing happens through your device&apos;s native sharing features (Messages, Email, etc.)</li>
                             <li className="mb-2">We do not have access to or control over the information once you share it</li>
                             <li className="mb-2">The privacy policies of the apps you use to share (Messages, Email, etc.) will apply to that shared data</li>
                         </ul>
 
-                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Children's Privacy</h2>
+                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Children&apos;s Privacy</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             SplitSnap is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate action.
                         </p>
@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Changes to This Privacy Policy</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+                            We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the &quot;Last Updated&quot; date.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.
