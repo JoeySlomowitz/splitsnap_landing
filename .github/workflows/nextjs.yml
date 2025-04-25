@@ -75,12 +75,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      - name: Debug dist contents
-        run: ls -la && ls -la dist || echo "dist directory not found"
+      - name: Debug output contents
+        run: ls -la && ls -la out || echo "out directory not found"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./out
 
   # Deployment job
   deploy:
