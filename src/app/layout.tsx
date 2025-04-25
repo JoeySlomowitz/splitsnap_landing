@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -14,16 +14,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://split-snap.com"),
   title: "SplitSnap - Split Receipts in Seconds",
   description: "Transform receipt splitting through three simple steps: Snap a photo of any receipt, Split the bill by entering the number of people, and Share the results instantly with friends.",
   keywords: ["receipt splitting", "bill splitting", "iOS app", "mobile app", "finance", "payments", "SplitSnap"],
   authors: [{ name: "SplitSnap Team" }],
-  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://splitsnap.app",
+    url: "https://split-snap.com",
     title: "SplitSnap - Split Receipts in Seconds",
     description: "Transform receipt splitting through three simple steps: Snap, Split, Share.",
     siteName: "SplitSnap",
