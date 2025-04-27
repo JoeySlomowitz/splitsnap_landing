@@ -54,40 +54,33 @@ function Step({ number, title, description, imageBgColor, lightModeImage, darkMo
       </div>
       <div className="flex-1 order-1 md:order-2 flex justify-center">
         <div className="relative w-56 sm:w-64 md:w-72 lg:w-80 transition-all duration-300">
-          <div
-            className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-600 dark:from-green-400 dark:to-green-500
-                      rounded-2xl blur-md opacity-20 transition-colors duration-300"
-            aria-hidden="true"
-          ></div>
-          <div className="relative bg-white dark:bg-black rounded-2xl p-4 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-            {lightModeImage && darkModeImage ? (
-              <>
-                <Image
-                  src={lightModeImage}
-                  alt={`Step ${number}`}
-                  width={380}
-                  height={380}
-                  className="w-full h-full object-contain rounded-xl dark:hidden"
-                />
-                <Image
-                  src={darkModeImage}
-                  alt={`Step ${number}`}
-                  width={380}
-                  height={380}
-                  className="w-full h-full object-contain rounded-xl hidden dark:block"
-                />
-              </>
-            ) : (
-              <PlaceholderImage
-                width={240}
-                height={240}
-                text={`Step ${number}`}
-                bgColor={imageBgColor}
-                textColor="white"
-                className="rounded-xl"
+          {lightModeImage && darkModeImage ? (
+            <>
+              <Image
+                src={lightModeImage}
+                alt={`Step ${number}`}
+                width={380}
+                height={380}
+                className="w-full h-full object-contain rounded-xl dark:hidden"
               />
-            )}
-          </div>
+              <Image
+                src={darkModeImage}
+                alt={`Step ${number}`}
+                width={380}
+                height={380}
+                className="w-full h-full object-contain rounded-xl hidden dark:block"
+              />
+            </>
+          ) : (
+            <PlaceholderImage
+              width={240}
+              height={240}
+              text={`Step ${number}`}
+              bgColor={imageBgColor}
+              textColor="white"
+              className="rounded-xl"
+            />
+          )}
         </div>
       </div>
     </div>

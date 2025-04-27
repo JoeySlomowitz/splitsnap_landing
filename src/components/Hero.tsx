@@ -40,8 +40,8 @@ export default function Hero() {
               <PlaceholderImage
                 width={310}
                 height={679.2}
-                text="iPhone"
-                bgColor="#f5f5f7"
+                text=""
+                bgColor="#f5f5f7 dark:bg-black"
                 textColor="#0071E3"
                 className="relative z-10 rounded-[60px]"
               />
