@@ -4,7 +4,7 @@ import * as path from "path";
 
 const width: number = 1200;
 const height: number = 630;
-const padding: number = 20;
+const padding: number = 50; // Increased padding to 50px for more breathing room
 
 const canvas = createCanvas(width, height);
 const context = canvas.getContext("2d");
@@ -17,7 +17,7 @@ context.fillStyle = gradient;
 context.fillRect(0, 0, width, height);
 
 // Heading: "Split Receipts in Seconds" over two lines
-context.font = "bold 80px Arial"; // Use Arial (default font)
+context.font = "bold 100px Arial";
 context.textAlign = "left";
 context.textBaseline = "top";
 
@@ -29,13 +29,13 @@ context.fillText(splitReceiptsText, padding, padding);
 // Second part: "in Seconds" in iOS system green (#30D158)
 context.fillStyle = "#30D158";
 const inSecondsText = "in Seconds";
-const lineHeight = 90;
+const lineHeight = 110;
 context.fillText(inSecondsText, padding, padding + lineHeight);
 
 // Subheading: "Snap. Split. Share" in secondary color (light gray)
-context.font = "50px Arial"; // Use Arial (default font)
+context.font = "60px Arial";
 context.fillStyle = "#A1A1A1";
-context.fillText("Snap. Split. Share", padding, padding + lineHeight * 2);
+context.fillText("Snap. Split. Share", padding, padding + lineHeight * 1.8);
 
 // Save the image
 try {
