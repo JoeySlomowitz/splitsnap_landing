@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
@@ -34,12 +35,19 @@ export const metadata: Metadata = {
     siteName: "SplitSnap",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "SplitSnap App",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SplitSnap - Split Receipts in Seconds",
+    description: "Transform receipt splitting through three simple steps: Snap, Split, Share.",
+    images: ["/og-image.png"],
+    site: "@SplitSnap"
   },
   appleWebApp: {
     capable: true,
