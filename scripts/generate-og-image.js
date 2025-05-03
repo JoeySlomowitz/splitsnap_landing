@@ -5,7 +5,7 @@ var fs = require("fs");
 var path = require("path");
 var width = 1200;
 var height = 630;
-var padding = 20;
+var padding = 50; // Increased padding to 50px for more breathing room
 var canvas = (0, canvas_1.createCanvas)(width, height);
 var context = canvas.getContext("2d");
 // Background gradient (dark blue to black)
@@ -15,7 +15,7 @@ gradient.addColorStop(1, "#000000");
 context.fillStyle = gradient;
 context.fillRect(0, 0, width, height);
 // Heading: "Split Receipts in Seconds" over two lines
-context.font = "bold 80px Arial"; // Use Arial (default font)
+context.font = "bold 100px Arial";
 context.textAlign = "left";
 context.textBaseline = "top";
 // First part: "Split Receipts" in white
@@ -25,12 +25,12 @@ context.fillText(splitReceiptsText, padding, padding);
 // Second part: "in Seconds" in iOS system green (#30D158)
 context.fillStyle = "#30D158";
 var inSecondsText = "in Seconds";
-var lineHeight = 90;
+var lineHeight = 110;
 context.fillText(inSecondsText, padding, padding + lineHeight);
 // Subheading: "Snap. Split. Share" in secondary color (light gray)
-context.font = "50px Arial"; // Use Arial (default font)
+context.font = "60px Arial";
 context.fillStyle = "#A1A1A1";
-context.fillText("Snap. Split. Share", padding, padding + lineHeight * 2);
+context.fillText("Snap. Split. Share", padding, padding + lineHeight * 1.8);
 // Save the image
 try {
     var buffer = canvas.toBuffer("image/png");
