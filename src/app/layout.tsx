@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://split-snap.com",
-    title: "SplitSnap - Split Receipts in Seconds",
-    description: "Transform receipt splitting through three simple steps: Snap, Split, Share.",
+    title: "SplitSnap - Simplify bill splits",
+    description: "Split bills effortlessly with friends. Join our iOS beta to test and shape SplitSnap!",
     siteName: "SplitSnap",
     images: [
       {
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SplitSnap - Split Receipts in Seconds",
-    description: "Transform receipt splitting through three simple steps: Snap, Split, Share.",
+    title: "SplitSnap - Simplify bill splits",
+    description: "Split bills effortlessly with friends. Join our iOS beta to test and shape SplitSnap!",
     images: ["/og-image.png"],
     site: "@SplitSnap"
   },
