@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Data Processing and Third-Party Services</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap's data processing involves third-party AI services. Here's how your data is handled:
+                            SplitSnap&apos;s data processing involves third-party AI services. Here&apos;s how your data is handled:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">We do not operate our own servers for receipt processing</li>
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
                             <li className="mb-2">Bill splitting calculations are performed within the app after receiving extracted data</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Standard app functionality services provided by Apple (App Store downloads, TestFlight distribution, and crash reporting) are governed by Apple's privacy policy and remain unchanged.
+                            Standard app functionality services provided by Apple (App Store downloads, TestFlight distribution, and crash reporting) are governed by Apple&apos;s privacy policy and remain unchanged.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Camera Permission</h2>
