@@ -10,7 +10,7 @@ export default function TermsOfService() {
 
                     <div className="prose dark:prose-invert max-w-none">
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                            Last Updated: April 21, 2025
+                            Last Updated: September 20, 2025
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">1. Introduction</h2>
@@ -18,7 +18,7 @@ export default function TermsOfService() {
                             Welcome to SplitSnap. These Terms of Service (&quot;Terms&quot;) govern your use of the SplitSnap mobile application (&quot;App&quot;), provided by SplitSnap (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is a receipt scanning bill-splitting application that allows users to scan receipts, process the information, and split bills among multiple people. All processing occurs on your device, and no data is transmitted to external servers.
+                            SplitSnap is a receipt scanning bill-splitting application that allows users to scan receipts, process the information, and split bills among multiple people. To do this, receipt data is transmitted to third-party AI service providers for processing.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">2. Acceptance of Terms</h2>
@@ -61,19 +61,28 @@ export default function TermsOfService() {
                             <li className="mb-2">Maintaining the security of your device and preventing unauthorized access to the App</li>
                             <li className="mb-2">Complying with all applicable laws and regulations</li>
                             <li className="mb-2">Using the App in a manner that respects the privacy and rights of others</li>
+                            <li className="mb-2"><strong>Not uploading receipts containing personally identifying information, sensitive personal data, or confidential information</strong></li>
+                            <li className="mb-2">Understanding that receipt data is transmitted to third-party AI services for processing</li>
                         </ul>
 
-                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">6. Receipt Processing and Financial Information</h2>
+                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">6. Receipt Processing and Third-Party AI Services</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap processes receipt information and performs calculations to split bills. You acknowledge and agree that:
+                            SplitSnap processes receipt information using third-party artificial intelligence services to extract text and perform bill-splitting calculations. You acknowledge and agree that:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">All receipt processing occurs locally on your device</li>
-                            <li className="mb-2">We do not store, access, or transmit your receipt data or financial information</li>
-                            <li className="mb-2">The accuracy of the bill splitting depends on the quality of the receipt image and the accuracy of the optical character recognition (OCR) technology</li>
+                            <li className="mb-2">Receipt images and extracted data are transmitted to third-party AI service providers for processing</li>
+                            <li className="mb-2">These third-party services are subject to their own privacy policies and terms of service</li>
+                            <li className="mb-2">You should not upload receipts containing personally identifying information, sensitive personal data, or confidential information</li>
+                            <li className="mb-2">The accuracy of the bill splitting depends on the quality of the receipt image and the accuracy of the AI processing technology</li>
+                            <li className="mb-2">Processing may require an internet connection to access third-party AI services</li>
                             <li className="mb-2">You should always verify the results before finalizing any financial transactions</li>
-                            <li className="mb-2">We are not responsible for any financial discrepancies or disputes that may arise from using the App</li>
+                            <li className="mb-2">We are not responsible for any financial discrepancies, disputes, or data handling by third-party AI services that may arise from using the App</li>
                         </ul>
+                        <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 mb-4">
+                            <p className="text-yellow-800 dark:text-yellow-200 font-medium">
+                                <strong>Important:</strong> Do not scan receipts that contain sensitive personal information such as full credit card numbers, social security numbers, or other personally identifying information. SplitSnap is designed for standard retail receipts showing items, prices, and merchant information only.
+                            </p>
+                        </div>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">7. Intellectual Property Rights</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">

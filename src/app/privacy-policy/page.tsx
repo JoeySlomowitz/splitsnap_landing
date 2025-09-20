@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
 
                     <div className="prose dark:prose-invert max-w-none">
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                            Last Updated: April 21, 2025
+                            Last Updated: September 20, 2025
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Introduction</h2>
@@ -18,35 +18,41 @@ export default function PrivacyPolicy() {
                             Welcome to SplitSnap. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains our approach to privacy and how your information is handled when you use our receipt scanning bill-splitting application.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is designed with privacy at its core. Our app processes all data directly on your device, with no information transmitted to external servers. This &quot;zero-data-transmission&quot; approach means your financial information never leaves your control.
+                            SplitSnap uses third-party artificial intelligence services to process receipt images and extract text for bill-splitting calculations. While we strive to protect your privacy, please be aware that receipt data is transmitted to these services for processing.
                         </p>
+                        <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 mb-4">
+                            <p className="text-yellow-800 dark:text-yellow-200 font-medium">
+                                <strong>Important:</strong> Do not scan receipts containing personally identifying information, sensitive personal data, or confidential information. Use SplitSnap only for standard retail receipts.
+                            </p>
+                        </div>
 
-                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Our Zero-Data-Transmission Approach</h2>
+                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Third-Party AI Processing</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap operates entirely on your device. When you scan a receipt, the image is processed locally using your device&apos;s computing power. The text recognition, calculations, and bill splitting all happen on your device. At no point is your receipt data, financial information, or any other personal data transmitted to our servers or any third-party servers.
+                            SplitSnap uses third-party artificial intelligence services to process receipt images and extract text information for bill-splitting calculations. When you scan a receipt, the image is transmitted to these AI services for processing, and the extracted data is returned to the app.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            This approach provides several key privacy benefits:
+                            Our approach includes these privacy considerations:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">Your financial information remains completely private</li>
-                            <li className="mb-2">No risk of data breaches from our servers (because we don&apos;t store your data)</li>
-                            <li className="mb-2">No tracking or profiling of your spending habits</li>
-                            <li className="mb-2">Full functionality even without an internet connection</li>
+                            <li className="mb-2">We do not store receipt images or extracted data on our own servers</li>
+                            <li className="mb-2">Third-party AI services are subject to their own privacy policies and data handling practices</li>
+                            <li className="mb-2">Processing requires an internet connection to access AI services</li>
+                            <li className="mb-2">We recommend using only standard retail receipts without sensitive personal information</li>
                         </ul>
 
-                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">No-Server Architecture</h2>
+                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Data Processing and Third-Party Services</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is built with a no-server architecture. This means:
+                            SplitSnap's data processing involves third-party AI services. Here's how your data is handled:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">We do not operate servers that process or store your personal data</li>
-                            <li className="mb-2">We do not collect, store, or transmit your receipt data</li>
-                            <li className="mb-2">All processing happens locally on your device</li>
-                            <li className="mb-2">Your data remains under your control at all times</li>
+                            <li className="mb-2">We do not operate our own servers for receipt processing</li>
+                            <li className="mb-2">Receipt images are transmitted to third-party AI services for text extraction</li>
+                            <li className="mb-2">We do not store your receipt data on our servers after processing</li>
+                            <li className="mb-2">Third-party AI services have their own data retention and privacy policies</li>
+                            <li className="mb-2">Bill splitting calculations are performed within the app after receiving extracted data</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            The only exceptions to this are standard app functionality services provided by Apple, such as App Store downloads, TestFlight distribution, and crash reporting, which are governed by Apple&apos;s privacy policy.
+                            Standard app functionality services provided by Apple (App Store downloads, TestFlight distribution, and crash reporting) are governed by Apple's privacy policy and remain unchanged.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Camera Permission</h2>
@@ -54,26 +60,26 @@ export default function PrivacyPolicy() {
                             SplitSnap requires camera permission to function properly. This permission is used exclusively for scanning receipts. When you take a photo of a receipt:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">The image is processed entirely on your device</li>
-                            <li className="mb-2">The image is not transmitted to any external servers</li>
-                            <li className="mb-2">The image is only stored temporarily in your device&apos;s memory during processing</li>
+                            <li className="mb-2">The image is transmitted to third-party AI services for text extraction</li>
+                            <li className="mb-2">The image is only stored temporarily during the processing session</li>
+                            <li className="mb-2">We do not store the image on our own servers after processing</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             You can revoke camera permission at any time through your device settings, though this will limit the app&apos;s functionality as receipt scanning is our core feature.
                         </p>
 
-                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">On-Device Data Storage</h2>
+                        <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Data Handling</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap temporarily stores the following information on your device:
+                            SplitSnap handles data as follows:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">Receipt images during processing</li>
-                            <li className="mb-2">Extracted receipt data (items, prices, etc.)</li>
-                            <li className="mb-2">Bill splitting calculations</li>
-                            <li className="mb-2">App preferences and settings</li>
+                            <li className="mb-2">Receipt images are transmitted to third-party AI services for processing</li>
+                            <li className="mb-2">Extracted receipt data (items, prices, etc.) is returned from AI services to the app</li>
+                            <li className="mb-2">Bill splitting calculations are performed within the app</li>
+                            <li className="mb-2">App preferences and settings are stored locally on your device</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            This data is stored only for the duration of your active session and is automatically cleared when you close the app or start a new receipt scanning session. We do not maintain a history of your receipts or transactions unless you explicitly save them using your device&apos;s native sharing or saving features.
+                            Data processed during your session is automatically cleared when you close the app or start a new receipt scanning session. We do not maintain a history of your receipts or transactions on our servers. However, third-party AI services may have their own data retention policies.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Handling of Financial Information</h2>
@@ -90,11 +96,12 @@ export default function PrivacyPolicy() {
                             This information is:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
-                            <li className="mb-2">Processed entirely on your device</li>
+                            <li className="mb-2">Transmitted to third-party AI services for text extraction processing</li>
                             <li className="mb-2">Used only for the purpose of splitting the bill</li>
-                            <li className="mb-2">Not transmitted to any external servers</li>
-                            <li className="mb-2">Not used for any advertising, marketing, or analytics purposes</li>
-                            <li className="mb-2">Automatically cleared when you close the app or start a new receipt scanning session</li>
+                            <li className="mb-2">Not stored on our servers after processing</li>
+                            <li className="mb-2">Not used by us for any advertising, marketing, or analytics purposes</li>
+                            <li className="mb-2">Subject to the privacy policies of third-party AI service providers</li>
+                            <li className="mb-2">Automatically cleared from the app when you close it or start a new receipt scanning session</li>
                         </ul>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Sharing Results</h2>
@@ -115,7 +122,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Your Rights</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Since we do not collect or store your personal data on our servers, many traditional data rights (such as the right to access, correct, or delete your data) are automatically fulfilled by our design. You maintain complete control over your data at all times.
+                            While we do not collect or store your personal data on our servers, your receipt data is processed by third-party AI services. For data rights related to third-party processing, you should consult the privacy policies of those services.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             You can:
