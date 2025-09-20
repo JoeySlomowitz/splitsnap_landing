@@ -39,7 +39,7 @@ function Feature({ iconSrc, title, description, color }: FeatureProps) {
   }, []);
 
   return (
-    <div 
+    <div
       ref={featureRef}
       className="flex flex-col items-center text-center opacity-0 transition-opacity duration-1000 ease-in-out"
     >
@@ -76,27 +76,27 @@ export default function Features() {
             Designed with simplicity and efficiency in mind
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <Feature
             iconSrc="/images/scan-receipt.svg"
-            title="Instant Receipt Scanning"
-            description="Advanced OCR technology automatically detects and extracts receipt details in seconds."
+            title="Smart Receipt Scanning"
+            description="Leverages your device's camera and advanced text recognition to accurately capture all the details from your receipt."
             color="#34C759"
           />
-          
+
+          <Feature
+            iconSrc="/images/menu-square.svg"
+            title="AI-Powered Itemization"
+            description="Our AI automatically reads the items and prices, so you can assign items to friends and see who owes what in seconds."
+            color="#34C759"
+          />
+
           <Feature
             iconSrc="/images/math.svg"
-            title="Smart Calculations"
-            description="Automatically calculates each person's share, including tax and tip adjustments."
+            title="Swift & Smart Totals"
+            description="Get instant, accurate totals. SplitSnap’s intelligent calculation engine handles all the complex math, including taxes and tips, so you can settle up in seconds."
             color="#34C759"
-          />
-          
-          <Feature
-            iconSrc="/images/lock.svg"
-            title="Secure & Private"
-            description="Your financial data is encrypted and never shared with third parties."
-            color="#AF52DE"
           />
         </div>
       </div>

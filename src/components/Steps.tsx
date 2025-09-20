@@ -96,36 +96,37 @@ export default function Steps() {
             How It Works
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Split any bill in two simple steps
+            Split any bill in three simple steps
           </p>
         </div>
 
         <div className="space-y-20">
           <Step
             number={1}
-            title="Snap a Photo"
-            description="Take a quick photo of any receipt with your iPhone camera."
+            title="Scan Your Receipt"
+            description="Use your iPhone's camera to scan the bill. The app automatically digitizes every line item and price."
             imageBgColor="#34C759" // iOS green
-            lightModeImage="/images/scan-instruction.png"
+            lightModeImage="/images/scan-instruction_dark.png"
             darkModeImage="/images/scan-instruction_dark.png"
           />
 
           <Step
             number={2}
-            title="Split the Bill"
-            description="Enter the number of people and let SplitSnap calculate each person's share."
+            title="Assign Items"
+            description="Tap to assign items to each person at the table. You can handle shared items, multiple quantities, and even make bulk assignments with ease."
             imageBgColor="#34C759" // Updated to accent green
             lightModeImage="/images/split_instruction.png"
             darkModeImage="/images/split_instruction_dark.png"
           />
 
-          {/* TODO: Add this later when functionality available  */}
-          {/* <Step
+          <Step
             number={3}
-            title="Share Instantly"
-            description="Send payment details to friends via text, email, or your favorite messaging app."
+            title="Split the Total"
+            description="The app instantly calculates each person's share, including options for adding a tip. Get a clear, fair summary for everyone, ending the post-meal confusion."
             imageBgColor="#34C759" // Updated to accent green
-          /> */}
+            lightModeImage="/images/summary.png"
+            darkModeImage="/images/summary_dark.png"
+          />
         </div>
       </div>
     </section>
