@@ -81,7 +81,7 @@ export default function Home() {
               Ready to Split Bills Effortlessly?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-              Download SplitSnap today and never worry about complicated bill splitting again.
+              Download Splitra today and never worry about complicated bill splitting again.
             </p>
             <a
               href="https://testflight.apple.com/join/VfvszCHu"

@@ -9,12 +9,12 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug">
-            Snap a receipt<br />
+            Scan a receipt<br />
             <span className="text-[#34C759] dark:text-[#58D158]">split the bill</span><br />
             Effortlessly
           </h1>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto lg:mx-0">
-            Tired of the awkward math after a group meal? SplitSnap is an iOS app that lets you split a restaurant bill just by scanning it with your camera. Our AI automatically reads the items and prices, so you can assign items to friends and see who owes what in seconds.
+            Tired of the awkward math after a group meal? Splitra is an iOS app that lets you split a restaurant bill just by scanning it with your camera. Our AI automatically reads the items and prices, so you can assign items to friends and see who owes what in seconds.
           </p>
           <div className="mt-8">
             <a

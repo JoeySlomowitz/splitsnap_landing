@@ -15,15 +15,15 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">1. Introduction</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Welcome to SplitSnap. These Terms of Service (&quot;Terms&quot;) govern your use of the SplitSnap mobile application (&quot;App&quot;), provided by SplitSnap (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
+                            Welcome to Splitra. These Terms of Service (&quot;Terms&quot;) govern your use of the Splitra mobile application (&quot;App&quot;), provided by Splitra (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is a receipt scanning bill-splitting application that allows users to scan receipts, process the information, and split bills among multiple people. To do this, receipt data is transmitted to third-party AI service providers for processing.
+                            Splitra is a receipt scanning bill-splitting application that allows users to scan receipts, process the information, and split bills among multiple people. To do this, receipt data is transmitted to third-party AI service providers for processing.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">2. Acceptance of Terms</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            By using SplitSnap, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you are using the App on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.
+                            By using Splitra, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you are using the App on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             We reserve the right to modify these Terms at any time. We will provide notice of significant changes by updating the &quot;Last Updated&quot; date at the top of these Terms. Your continued use of the App after such changes constitutes your acceptance of the new Terms.
@@ -31,7 +31,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">3. Eligibility</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            You must be at least 13 years old to use SplitSnap. By using the App, you represent and warrant that you meet this requirement. If you are under 18, you represent that you have your parent&apos;s or legal guardian&apos;s permission to use the App and that they have read and agree to these Terms on your behalf.
+                            You must be at least 13 years old to use Splitra. By using the App, you represent and warrant that you meet this requirement. If you are under 18, you represent that you have your parent&apos;s or legal guardian&apos;s permission to use the App and that they have read and agree to these Terms on your behalf.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">4. App License and Restrictions</h2>
@@ -53,7 +53,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">5. User Responsibilities</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            As a user of SplitSnap, you are responsible for:
+                            As a user of Splitra, you are responsible for:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">Ensuring the accuracy of the receipt information you scan</li>
@@ -67,7 +67,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">6. Receipt Processing and Third-Party AI Services</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap processes receipt information using third-party artificial intelligence services to extract text and perform bill-splitting calculations. You acknowledge and agree that:
+                            Splitra processes receipt information using third-party artificial intelligence services to extract text and perform bill-splitting calculations. You acknowledge and agree that:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">Receipt images and extracted data are transmitted to third-party AI service providers for processing</li>
@@ -80,13 +80,13 @@ export default function TermsOfService() {
                         </ul>
                         <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 mb-4">
                             <p className="text-yellow-800 dark:text-yellow-200 font-medium">
-                                <strong>Important:</strong> Do not scan receipts that contain sensitive personal information such as full credit card numbers, social security numbers, or other personally identifying information. SplitSnap is designed for standard retail receipts showing items, prices, and merchant information only.
+                                <strong>Important:</strong> Do not scan receipts that contain sensitive personal information such as full credit card numbers, social security numbers, or other personally identifying information. Splitra is designed for standard retail receipts showing items, prices, and merchant information only.
                             </p>
                         </div>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">7. Intellectual Property Rights</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            The App, including its content, features, and functionality, is owned by SplitSnap and is protected by copyright, trademark, and other intellectual property laws. Our name, logo, and all related names, logos, product and service names, designs, and slogans are our trademarks or registered trademarks.
+                            The App, including its content, features, and functionality, is owned by Splitra and is protected by copyright, trademark, and other intellectual property laws. Our name, logo, and all related names, logos, product and service names, designs, and slogans are our trademarks or registered trademarks.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             You may not use, reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our App, except as follows:
@@ -112,7 +112,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">10. Limitation of Liability</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL SPLITSNAP, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+                            TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL SPLITRA, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             This includes, but is not limited to, personal injury, pain and suffering, emotional distress, loss of revenue, loss of profits, loss of business or anticipated savings, loss of data, loss of goodwill, or any other damages arising from:
@@ -127,7 +127,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">11. Indemnification</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            You agree to defend, indemnify, and hold harmless SplitSnap, its affiliates, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys&apos; fees) arising out of or relating to your violation of these Terms or your use of the App.
+                            You agree to defend, indemnify, and hold harmless Splitra, its affiliates, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys&apos; fees) arising out of or relating to your violation of these Terms or your use of the App.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">12. Termination</h2>
@@ -158,7 +158,7 @@ export default function TermsOfService() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">16. Entire Agreement</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            These Terms, together with our Privacy Policy, constitute the entire agreement between you and SplitSnap regarding your use of the App and supersede all prior and contemporaneous written or oral agreements.
+                            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Splitra regarding your use of the App and supersede all prior and contemporaneous written or oral agreements.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">17. Contact Information</h2>
@@ -166,7 +166,7 @@ export default function TermsOfService() {
                             If you have any questions about these Terms, please contact us at:
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Email: legal@splitsnap.app
+                            Email: legal@splitra.app
                         </p>
                     </div>
                 </div>

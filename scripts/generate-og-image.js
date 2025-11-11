@@ -27,10 +27,10 @@ context.fillStyle = "#30D158";
 var inSecondsText = "in Seconds";
 var lineHeight = 110;
 context.fillText(inSecondsText, padding, padding + lineHeight);
-// Subheading: "Snap. Split. Share" in secondary color (light gray)
+// Subheading: "Scan. Split. Share" in secondary color (light gray)
 context.font = "60px Arial";
 context.fillStyle = "#A1A1A1";
-context.fillText("Snap. Split. Share", padding, padding + lineHeight * 1.8);
+context.fillText("Scan. Split. Share", padding, padding + lineHeight * 1.8);
 // Save the image
 try {
     var buffer = canvas.toBuffer("image/png");
