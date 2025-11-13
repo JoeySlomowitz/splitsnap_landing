@@ -15,20 +15,20 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Introduction</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Welcome to SplitSnap. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains our approach to privacy and how your information is handled when you use our receipt scanning bill-splitting application.
+                            Welcome to Splitra. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains our approach to privacy and how your information is handled when you use our receipt scanning bill-splitting application.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap uses third-party artificial intelligence services to process receipt images and extract text for bill-splitting calculations. While we strive to protect your privacy, please be aware that receipt data is transmitted to these services for processing.
+                            Splitra uses third-party artificial intelligence services to process receipt images and extract text for bill-splitting calculations. While we strive to protect your privacy, please be aware that receipt data is transmitted to these services for processing.
                         </p>
                         <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-lg p-4 mb-4">
                             <p className="text-yellow-800 dark:text-yellow-200 font-medium">
-                                <strong>Important:</strong> Do not scan receipts containing personally identifying information, sensitive personal data, or confidential information. Use SplitSnap only for standard retail receipts.
+                                <strong>Important:</strong> Do not scan receipts containing personally identifying information, sensitive personal data, or confidential information. Use Splitra only for standard retail receipts.
                             </p>
                         </div>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Third-Party AI Processing</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap uses third-party artificial intelligence services to process receipt images and extract text information for bill-splitting calculations. When you scan a receipt, the image is transmitted to these AI services for processing, and the extracted data is returned to the app.
+                            Splitra uses third-party artificial intelligence services to process receipt images and extract text information for bill-splitting calculations. When you scan a receipt, the image is transmitted to these AI services for processing, and the extracted data is returned to the app.
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                             Our approach includes these privacy considerations:
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Data Processing and Third-Party Services</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap&apos;s data processing involves third-party AI services. Here&apos;s how your data is handled:
+                            Splitra&apos;s data processing involves third-party AI services. Here&apos;s how your data is handled:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">We do not operate our own servers for receipt processing</li>
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Camera Permission</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap requires camera permission to function properly. This permission is used exclusively for scanning receipts. When you take a photo of a receipt:
+                            Splitra requires camera permission to function properly. This permission is used exclusively for scanning receipts. When you take a photo of a receipt:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">The image is transmitted to third-party AI services for text extraction</li>
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Data Handling</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap handles data as follows:
+                            Splitra handles data as follows:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">Receipt images are transmitted to third-party AI services for processing</li>
@@ -84,7 +84,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Handling of Financial Information</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap processes financial information from your receipts, including:
+                            Splitra processes financial information from your receipts, including:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">Item names and prices</li>
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Sharing Results</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap allows you to share bill splitting results with others. When you use this feature:
+                            Splitra allows you to share bill splitting results with others. When you use this feature:
                         </p>
                         <ul className="list-disc pl-6 mb-4 text-gray-600 dark:text-gray-400">
                             <li className="mb-2">You control who receives the information</li>
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Children&apos;s Privacy</h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            SplitSnap is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate action.
+                            Splitra is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate action.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Your Rights</h2>
@@ -146,7 +146,7 @@ export default function PrivacyPolicy() {
                             If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Email: privacy@splitsnap.app
+                            Email: privacy@splitra.app
                         </p>
                     </div>
                 </div>

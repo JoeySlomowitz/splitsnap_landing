@@ -43,7 +43,7 @@ export default function Header() {
                 bgColor="#34C759"
                 className="mr-2 rounded-lg dark:bg-[#58D158]"
               />
-              <span className="text-xl font-bold text-gray-900 dark:text-white">SplitSnap</span>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">Splitra</span>
             </Link>
           </div>
           

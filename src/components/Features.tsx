@@ -95,7 +95,7 @@ export default function Features() {
           <Feature
             iconSrc="/images/math.svg"
             title="Swift & Smart Totals"
-            description="Get instant, accurate totals. SplitSnap’s intelligent calculation engine handles all the complex math, including taxes and tips, so you can settle up in seconds."
+            description="Get instant, accurate totals. Splitra's intelligent calculation engine handles all the complex math, including taxes and tips, so you can settle up in seconds."
             color="#34C759"
           />
         </div>

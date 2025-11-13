@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SplitSnap Landing Page - A static Next.js website for the SplitSnap iOS bill-splitting application. The site showcases app features, explains functionality, and provides TestFlight download links.
+Splitra Landing Page - A static Next.js website for the Splitra iOS bill-splitting application. The site showcases app features, explains functionality, and provides TestFlight download links.
 
 ## Key Commands
 

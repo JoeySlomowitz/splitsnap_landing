@@ -1,4 +1,4 @@
 
-## SplitSnap landing page
+## Splitra landing page
 
-This is the landing page for SplitSnap; a bill splitting tool available on iOS
+This is the landing page for Splitra; a bill splitting tool available on iOS
