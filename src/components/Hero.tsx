@@ -49,14 +49,14 @@ export default function Hero() {
                   src="/images/receipt_total_light.png"
                   width={320}
                   height={696}
-                  alt="Receipt Total"
+                  alt="Splitra AI receipt scanner showing itemized bill split with automatic item detection and price calculation"
                   className='relative z-20 w-auto h-full object-contain rounded-[60px] shadow-lg mb-4 block dark:hidden'
                 />
                 <Image
                   src="/images/receipt_total_dark.png"
                   width={320}
                   height={696}
-                  alt="Receipt Total"
+                  alt="Splitra AI receipt scanner showing itemized bill split with automatic item detection and price calculation"
                   className='relative z-20 w-auto h-full object-contain rounded-[60px] shadow-lg mb-4 hidden dark:block'
                 />
               </div>

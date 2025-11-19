@@ -11,9 +11,10 @@ interface StepProps {
   imageBgColor: string;
   lightModeImage?: string;
   darkModeImage?: string;
+  imageAlt?: string;
 }
 
-function Step({ number, title, description, imageBgColor, lightModeImage, darkModeImage }: StepProps) {
+function Step({ number, title, description, imageBgColor, lightModeImage, darkModeImage, imageAlt }: StepProps) {
   const stepRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -40,6 +41,8 @@ function Step({ number, title, description, imageBgColor, lightModeImage, darkMo
     };
   }, []);
 
+  const altText = imageAlt || `${title} - ${description}`;
+
   return (
     <div
       ref={stepRef}
@@ -58,14 +61,14 @@ function Step({ number, title, description, imageBgColor, lightModeImage, darkMo
             <>
               <Image
                 src={lightModeImage}
-                alt={`Step ${number}`}
+                alt={altText}
                 width={380}
                 height={380}
                 className="w-full h-full object-contain rounded-xl dark:hidden"
               />
               <Image
                 src={darkModeImage}
-                alt={`Step ${number}`}
+                alt={altText}
                 width={380}
                 height={380}
                 className="w-full h-full object-contain rounded-xl hidden dark:block"
@@ -108,6 +111,7 @@ export default function Steps() {
             imageBgColor="#34C759" // iOS green
             lightModeImage="/images/scan-instruction_dark.png"
             darkModeImage="/images/scan-instruction_dark.png"
+            imageAlt="Splitra receipt scanning interface with camera capturing restaurant bill items and prices"
           />
 
           <Step
@@ -117,6 +121,7 @@ export default function Steps() {
             imageBgColor="#34C759" // Updated to accent green
             lightModeImage="/images/split_instruction.png"
             darkModeImage="/images/split_instruction_dark.png"
+            imageAlt="Bill splitting interface showing how to assign receipt items to different people in the group"
           />
 
           <Step
@@ -126,6 +131,7 @@ export default function Steps() {
             imageBgColor="#34C759" // Updated to accent green
             lightModeImage="/images/summary.png"
             darkModeImage="/images/summary_dark.png"
+            imageAlt="Bill split summary showing individual totals with tax and tip calculations for each person"
           />
         </div>
       </div>
