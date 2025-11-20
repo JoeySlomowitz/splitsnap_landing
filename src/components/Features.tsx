@@ -41,12 +41,20 @@ function Feature({ iconSrc, title, description, color }: FeatureProps) {
   return (
     <div
       ref={featureRef}
-      className="flex flex-col items-center text-center opacity-0 transition-opacity duration-1000 ease-in-out"
+      className="group flex flex-col items-center text-center opacity-0 transition-all duration-500 ease-in-out p-8 rounded-3xl backdrop-blur-sm bg-white/50 dark:bg-gray-900/50 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 hover:border-[#34C759]/20 dark:hover:border-[#58D158]/20"
+      style={{
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.04)',
+      }}
     >
-      <div className="mb-4">
+      <div className="mb-6 group-hover:scale-110 transition-transform duration-300 ease-out">
         <div
-          className="rounded-2xl flex items-center justify-center"
-          style={{ backgroundColor: color, width: '60px', height: '60px' }}
+          className="rounded-2xl flex items-center justify-center shadow-lg relative"
+          style={{
+            background: `linear-gradient(135deg, ${color} 0%, #2db14e 100%)`,
+            width: '64px',
+            height: '64px',
+            boxShadow: `0 8px 24px ${color}40`
+          }}
         >
           <Image
             src={iconSrc}
@@ -58,8 +66,8 @@ function Feature({ iconSrc, title, description, color }: FeatureProps) {
           />
         </div>
       </div>
-      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{title}</h3>
-      <p className="text-gray-600 dark:text-gray-400">{description}</p>
+      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{title}</h3>
+      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{description}</p>
     </div>
   );
 }
@@ -70,19 +78,19 @@ export default function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
-            Key Features
+            Key <span className="gradient-text">Features</span>
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Designed with simplicity and efficiency in mind
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Feature
             iconSrc="/images/scan-receipt.svg"
             title="Smart Receipt Scanning"
             description="Leverages your device's camera and advanced text recognition to accurately capture all the details from your receipt."
-            color="#34C759"
+            color="#3FCF66"
           />
 
           <Feature
@@ -96,7 +104,7 @@ export default function Features() {
             iconSrc="/images/math.svg"
             title="Swift & Smart Totals"
             description="Get instant, accurate totals. Splitra's intelligent calculation engine handles all the complex math, including taxes and tips, so you can settle up in seconds."
-            color="#34C759"
+            color="#28A745"
           />
         </div>
       </div>
